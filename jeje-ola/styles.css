@@ -1,0 +1,169 @@
+/* Header section */
+body{
+    margin: 0 auto;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: serif;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 3.4rem;
+
+}
+
+p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+/* header{
+    padding: 5px 100px 20px;
+} */
+.navbar{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: rgba(22, 35, 82, 100%);
+    padding: 10px 90px;
+}
+.br-nav{
+    border-bottom: 5px solid rgba(255, 0, 0, 100);
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 3px 10px;
+}
+.nav-link:hover, :active{
+    color: rgba(255, 0, 0, 100);
+}
+
+.welcome{
+    height: 500px;
+    overflow: hidden;
+}
+h1{
+    color: #fff;
+    font-size: 4rem;
+    font-family: serif;
+    font-weight: bolder;
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    right: 250px;
+}
+.head-img{
+    width: 100%;
+}
+
+/* vision */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 250px;
+}
+
+.art{
+    text-align: left;
+    width: 450px;
+}
+
+.img-vision{
+    width: 50%;
+    border-radius: 15px;
+}
+
+/* book appointment */
+
+.books{
+    text-align: center;
+    padding: 100px 200px;
+    background-color: rgba(22, 35, 82, 100%);
+}
+
+.books h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.btn{
+    background-color: rgba(255, 0, 0, 100);
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgba(255, 0, 0, 100);
+}
+
+/* footer */
+#footer{
+    background-color: #1E1E1E;
+}
+.container-foot{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 50px 200px;
+}
+
+
+form{
+    margin-top:10px;
+}
+
+input{
+    height: 30px;
+    width: 230px;
+    margin-bottom: 20px;
+    display: block;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    outline: none;
+    color: #fff;
+    font-size: 0.9rem;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+}
+
+.col ul{
+    list-style: none;
+}
+.col ul li{
+    line-height: 1.8;
+}
+
+.col ul li a{
+   text-decoration: none;
+   color: #fff;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.col ul li a:hover{
+    color: red;
+}

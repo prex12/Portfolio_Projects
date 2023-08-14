@@ -7,33 +7,45 @@
     <title>Jeje-Ola | Home</title>
 
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/fd3405535b.js" crossorigin="anonymous"></script>
+
     
 </head>
 <body>
     <header>
         <nav class="navbar br-nav">
-            <a href=""><img src="" alt="">Jeje-Ola</a>
+            <a href="index.html"><img class="nav-img" src="imgs/IMG-20220714-WA0016-removebg-preview.png" alt=""></a>
             <ul class="navbar nav">
-                <li><a class="nav-link" href="">Home</a></li>
-                <li><a class="nav-link" href="">About us</a></li>
-                <li><a class="nav-link" href="">Portfolio</a></li>
-                <li><a class="nav-link" href="">Contact us</a></li>
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="aboutUs.html ">About us</a></li>
+                <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav-link" href="contactus.html">Contact us</a></li>
             </ul>
         </nav>
 
+        
+    </header>
+    <section id="mt-all vision-section">
         <div class="welcome">
             <img class="head-img" src="imgs/Jeje-ola house front images/real-estate-agent-handing-house-key-client.jpg" alt="">
             <h1>WELCOME TO JEJE-OLA PROPERTIES NIG. LTD.</h1>
         </div>
-    </header>
-    <section id="vision-section">
-        <div class="container">
+        <div class="container general-padding container-vision gp-2">
             <article class="art">
                 <h2>Our Vision</h2>
-                <p>Our team  is dedicated to bringimg satisfactioin to our customers by providing them with their property needs and also make them </p>
+                <p class="blue-txt">Our team  is dedicated to bringimg satisfactioin to our customers by providing them with their property needs and also make them </p>
             </article>
 
-            <img class="img-vision" src="imgs/Jeje-ola house front images/real-estate-agent-handing-house-key-client.jpg" alt="contract-keys">
+            <img class="img-index" src="imgs/undraw_urban_design_kpu8.png" alt="contract-keys">
         </div>
 
     </section>
@@ -47,7 +59,7 @@
     </section>
 
     <section id="footer">
-        <div class="container-foot">
+        <div class="container container-foot general-padding">
             <div class="col">
                 <ul>
                     <li class="nav-link"><a href="">News</a></li>
@@ -75,21 +87,22 @@
                 </ul>
             </div>
 
-            <form action="">
+            <form action="/" method="post">
                 <label for="">Name</label>
                 <input id="name" type="text">
                 <label for="">e-mail</label>
                 <input id="email" type="email">
-                <button class="btn">Book Now</button>
+                <button type="submit" class="btn">Book Now</button>
             </form>
         </div>
     </section>
 
     <footer>
-
+        <p>prex12 | Copyright 2023</p>
     </footer>
 
     <!-- JS -->
-  <script src="index.js" charset="UTF-8"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="index.js" charset="UTF-8"></script>  
 </body>
 </html>

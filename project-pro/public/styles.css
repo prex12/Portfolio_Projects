@@ -5,6 +5,19 @@ a{
     text-decoration: none;
     color: white;
 }
+h2{
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    height: 50px;
+    margin-bottom: 0;
+}
 nav{
     background-color: #15133C;
     min-height: 90px;
@@ -16,6 +29,12 @@ hr{
     border-bottom: 5px dashed whitesmoke;
 }
 
+span{
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
 .container{
     display: flex;
 }
@@ -25,7 +44,7 @@ hr{
 }
 
 .pdg{
-    padding: 5px 200px;
+    padding: 10px 200px;
 }
 
 .align-top{
@@ -43,12 +62,21 @@ hr{
 }
 
 .p-text{
-    color: #fff;
     font-size: 1rem;
 }
 
-.w-60{
-    width:60%
+.pb-100{
+    padding-bottom: 100px;
+}
+
+.mid-box{
+    width:30%;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(72, 72, 72));   
+}
+
+.w-50{
+    width:60%;
 }
 .w-80{
     width: 80%;
@@ -56,6 +84,12 @@ hr{
 
 .text-gradient{
    color: #FFD2D7;
+}
+
+.z-2{
+    position: relative;
+    bottom: 125px;
+    z-index: 2;
 }
 
 .listItem{
@@ -67,7 +101,10 @@ hr{
 .no-list{
     list-style: none;
 }
-
+.btn-no-bg{
+    border: 0;
+    background: transparent;
+}
 .btn{
     font-size: 0.8rem;
     padding: 10px 20px;
@@ -89,7 +126,9 @@ hr{
 /* section 2 */
 
 #section1{
+    padding-bottom: 200px ;
     background: #15133C;
+    position: relative;
 }
 
 .h1-big{
@@ -104,4 +143,20 @@ hr{
     border-radius: 20px;
     color: #fff;
     margin-right: 100px;
+}
+
+.project-state{
+    /* align-items: center; */
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 20px;
+    height: 15px;
+    width: 100px;
+}
+
+/* section 2 */
+#section2{
+    position: relative;
+    bottom: 90px;
 }

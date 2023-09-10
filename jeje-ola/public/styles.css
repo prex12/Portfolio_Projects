@@ -97,9 +97,9 @@ header{
 }
 
 .container-contactus{
-    padding: 50px 200px;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 0;
 }
 
 .container-prop{
@@ -134,7 +134,7 @@ header{
     text-decoration: none;
     color: rgba(0, 0, 60, 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
     padding: 3px 10px;
 }
@@ -219,6 +219,7 @@ h1{
 
 .btn:hover{
     background-color: white;
+    border: 2px rgba(255, 0, 0, 100) solid;
     color: rgba(255, 0, 0, 100);
 }
 
@@ -232,7 +233,13 @@ h1{
 form{
     margin-top:10px;
 }
+/* .form-foot{
+    width: 80%;
+} */
 
+footer p{
+    font-size: .8rem;
+}
 input{
     height: 30px;
     width: 230px;
@@ -303,7 +310,7 @@ footer p{
 }
 
 .w-lg{
-    width: 60%;
+    width: 80%;
 }
 
 .w-md{
@@ -431,20 +438,22 @@ footer p{
 /* contact us page */
 /* contact us section */
 
-.form-contact{
+
+.form-contactus{
+    width: 50%;
     margin-top: 0;
 }
 
 .contactus{
-    width: 50%;
+    width: 45%;
 }
 
 .names{
-    border: 2px grey solid;
+    border: .5px grey solid;
     color: #000;
     margin: 10px 0;
     height: 35px;
-    width: 200%;
+    width: 100%;
 }
 .names:active{
     backdrop-filter: blur(5px);
@@ -462,6 +471,10 @@ footer p{
 }
 
 @media (max-width: 1024px) {
+    body{
+        width: 100%;
+    }
+
     h1{
         font-size: 2.5rem;
         right: 15%;
@@ -506,6 +519,10 @@ footer p{
         width: 300px;
     }
 
+    .form-foot input{
+        width: 100%;
+    }
+
     .text h3{
         margin-bottom: 30px;
     }
@@ -535,6 +552,10 @@ footer p{
     }
     .navbar{
         padding: 10px;
+    }
+
+    .nav-link{
+        font-size: .6rem;
     }
 
     h1{
@@ -575,5 +596,47 @@ footer p{
 
     .blue-txt{
         width: 90%;
+    }
+
+    .btn{
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    .w-cover{
+        width: 75%;
+    }
+
+
+    .container-contactus{
+        flex-direction: column;
+    }
+    .container-foot{
+        flex-direction: column;
+    }
+    
+    .contactus{
+        width: 100%;
+        text-align: center;
+    }
+    .contactus .w-lg{
+        width: 100%;
+    }
+
+    .form-contactus{
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-contactus input{
+        margin: 5px auto;
+    }
+
+    footer p{
+        font-size: .6rem;
+    }
+
+    .form-foot label{
+        font-size: .6rem;
     }
 }

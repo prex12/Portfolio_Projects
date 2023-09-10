@@ -32,8 +32,8 @@
     </header>
 
     <section class="mt-all" id="contactus">
-        <div class="container container-contactus">
-            <div class="contactus">
+        <div class="container container-contactus general-padding">
+            <div class="contactus ">
                 <h2>Contact us</h2>
                 <p class="blue-txt w-lg">lets us help you become a property owne in just a few steps</p>
                 <ul class="this">
@@ -43,12 +43,12 @@
                     <li><i class="fa-solid fa-check" style="color: #44ff00;"></i> Become a property owner!</li>
                 </ul>
             </div>
-            <form action="/" method="post">
+            <form class="form-contactus" action="/" method="post">
                 <h2>Fill form</h2>
-                <input class="names top-f" type="text" placeholder="First name">
-                <input class="names middle"type="text" placeholder="Last name">
-                <input class="names middle" type="email" placeholder="example@email.com">
-                <input class="names bottom" type="text" placeholder="phone Number">
+                <input name = "fName" class="names " type="text" placeholder="First name">
+                <input name = "lName" class="names "type="text" placeholder="Last name">
+                <input name = "email" class="names " type="email" placeholder="example@email.com">
+                <input name = "phone" class="names " type="text" placeholder="phone Number">
                 <button type="submit" class="btn w-cover">Book Appointment</button>
             </form>
         </div>
@@ -83,10 +83,10 @@
                 </ul>
             </div>
 
-            <form action="">
-                <label for="">Name</label>
+            <form class="form-foot" action="">
+                <label for="name">Name</label>
                 <input id="name" type="text">
-                <label for="">e-mail</label>
+                <label for="email">e-mail</label>
                 <input id="email" type="email">
                 <button class="btn">Book Now</button>
             </form>
@@ -94,7 +94,7 @@
     </section>
 
     <footer>
-        <p>prex12 | Copyright 2023</p>
+        <p>prex12 | &copy; 2023</p>
     </footer>
     
     <!-- JS -->

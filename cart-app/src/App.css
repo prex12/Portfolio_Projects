@@ -1,8 +1,14 @@
+.general-padding{
+  padding: 20px 200px;
+}
+
 .flexBox{
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+  margin-top: 40px;
+  padding-top: 70px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {

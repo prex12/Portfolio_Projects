@@ -4,11 +4,12 @@ import './styles/navbar.css'
 function Navbar() {
   return (
     <nav>
-        <ul className=''>
-            <li>Home</li>
-            <li>Catergories</li>
-            <li>Wishlist</li>
-            <li>Cart</li>
+      <h2>Cart App</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Catergories</a></li>
+            <li><a href="index.html">Wishlist</a></li>
+            <li><a href="index.html">Cart</a></li>
         </ul>
     </nav>
   )

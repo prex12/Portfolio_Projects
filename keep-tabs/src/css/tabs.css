@@ -1,0 +1,56 @@
+
+.tabs{
+    text-align: center;
+}
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    position: relative;
+    left: 450px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.form-flex :focus{
+    outline: none;
+}
+
+input{
+    color: deepskyblue;
+    width:100%;
+    padding: 10px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input :active{
+    border: 2px deepskyblue solid;
+}
+
+textarea{
+    color: deepskyblue;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    resize: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.btn{
+    position: relative;
+    top: 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: deepskyblue;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 30%;
+}

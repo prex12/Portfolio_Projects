@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: deepskyblue;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

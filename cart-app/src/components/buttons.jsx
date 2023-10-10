@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './styles/box.css'
 
-function Buttons() {
+function Buttons(props) {
     const [count, setCount] = useState(0);
 
     const handleDecrease=()=>{
@@ -19,7 +19,7 @@ function Buttons() {
         <p>{count}</p>
         <button className='btn-add' onClick={handleDecrease}>-</button>
     </div>
-    <button className='btn' style={{backgroundColor : "yellow", width: 150}}>Add to Cart</button>
+    <button onClick={props.handleSubmit} className='btn' style={{backgroundColor : "yellow", width: 150}}>add</button>
     </>
     
   )

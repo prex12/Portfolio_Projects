@@ -2,6 +2,16 @@
 // var arrLength = arr.length;
 // for (var i = 0; i < arrLength; i++)
 
+const menuButton = document.querySelectorAll(".set-invisible")
+menuButton.addEventListener("click", dropDown)
+function dropDown (){
+    console.log("clicked");
+    menuButton.innerHTML = "X"
+    // this.createElement('div').classList.add("small-menu")
+};
+
+
+
 var images = document.querySelectorAll(".img-property").length;
     for (var i = 0; i < images; i++){
         document.querySelectorAll(".img-property")[i].addEventListener("click", ()=>{

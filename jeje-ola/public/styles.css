@@ -470,6 +470,17 @@ footer p{
     margin-bottom: 5px;
 }
 
+.set-invisible{
+    display: none;
+    visibility: hidden;
+    border: none;
+    background-color: transparent;
+}
+.set-invisible i{
+    font-size: 1.5rem;
+    color: blue;
+}
+
 @media (max-width: 1024px) {
     body{
         width: 100%;
@@ -546,6 +557,16 @@ footer p{
     }
 }
 
+@media (max-width: 775px){
+    .set-invisible{
+        visibility: visible;
+        display: inline;
+        cursor: pointer;
+    }
+    .nav{
+        display: none;
+    }
+}
 @media (max-width: 500px){
     .nav{
         visibility: hidden;
@@ -566,9 +587,9 @@ footer p{
     }
 
     h2{
-        font-size: 1.2rem;
-        
+        font-size: 1.2rem; 
     }
+    
     .welcome{
         text-align: center;
         height: 350px;
@@ -639,4 +660,6 @@ footer p{
     .form-foot label{
         font-size: .6rem;
     }
+
+    
 }
